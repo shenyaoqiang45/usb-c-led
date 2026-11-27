@@ -1,0 +1,596 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-26T17:53:20",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [
+        {
+            "description": "tscircuit:capacitor_0805 与符号 () 指定的封装不匹配",
+            "items": [
+                {
+                    "description": "封装 C1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 96.0
+                    },
+                    "uuid": "24131bb8-445c-e248-5333-1fb8153cde48"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 96.0
+                    },
+                    "uuid": "24131bb8-445c-e248-5333-1fb8153cde48"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "tscircuit:capacitor_0402 与符号 () 指定的封装不匹配",
+            "items": [
+                {
+                    "description": "封装 C2",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 99.0
+                    },
+                    "uuid": "1473360c-7ce3-340c-1aac-cdf44dc3300c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Capacitor')",
+            "items": [
+                {
+                    "description": "封装 C2",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 99.0
+                    },
+                    "uuid": "1473360c-7ce3-340c-1aac-cdf44dc3300c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "tscircuit:KT-0603W 与符号 () 指定的封装不匹配",
+            "items": [
+                {
+                    "description": "封装 D1",
+                    "pos": {
+                        "x": 109.0,
+                        "y": 105.0
+                    },
+                    "uuid": "52f69660-0779-a781-61e9-e56243a5dcbd"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'LED')",
+            "items": [
+                {
+                    "description": "封装 D1",
+                    "pos": {
+                        "x": 109.0,
+                        "y": 105.0
+                    },
+                    "uuid": "52f69660-0779-a781-61e9-e56243a5dcbd"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "焊盘网络 (LED) 与原理图 (/USB-C LED/LED) 指定的网络不匹配",
+            "items": [
+                {
+                    "description": "F.Cu 上 D1 的焊盘 1 [LED]",
+                    "pos": {
+                        "x": 109.8001,
+                        "y": 105.0
+                    },
+                    "uuid": "4798c5c6-295f-58da-65a8-88860b4f961a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "tscircuit:TYPE-C-31-M-12 与符号 () 指定的封装不匹配",
+            "items": [
+                {
+                    "description": "封装 J1",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 100.0
+                    },
+                    "uuid": "2d3e9f66-6a51-629a-01e1-649a668e9966"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Integrated Circuit')",
+            "items": [
+                {
+                    "description": "封装 J1",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 100.0
+                    },
+                    "uuid": "2d3e9f66-6a51-629a-01e1-649a668e9966"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "焊盘缺少原理图 (unconnected-(J1-SBU2-Pad5)) 指定的网络",
+            "items": [
+                {
+                    "description": "F.Cu 上 J1 的焊盘 5 [<no net>]",
+                    "pos": {
+                        "x": 92.449087,
+                        "y": 98.24994
+                    },
+                    "uuid": "19e25bbe-0c68-cf7e-0110-bcc20e8a4902"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "焊盘网络 (CC1) 与原理图 (/USB-C LED/CC1) 指定的网络不匹配",
+            "items": [
+                {
+                    "description": "F.Cu 上 J1 的焊盘 6 [CC1]",
+                    "pos": {
+                        "x": 92.449087,
+                        "y": 98.750066
+                    },
+                    "uuid": "50e970c4-6216-6edc-1516-4e7c37e9d1e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "焊盘缺少原理图 (unconnected-(J1-DM2-Pad7)) 指定的网络",
+            "items": [
+                {
+                    "description": "F.Cu 上 J1 的焊盘 7 [<no net>]",
+                    "pos": {
+                        "x": 92.449087,
+                        "y": 99.249938
+                    },
+                    "uuid": "042e6cce-11a7-f90e-1f21-854e2c9b118e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "焊盘缺少原理图 (unconnected-(J1-DP1-Pad8)) 指定的网络",
+            "items": [
+                {
+                    "description": "F.Cu 上 J1 的焊盘 8 [<no net>]",
+                    "pos": {
+                        "x": 92.449087,
+                        "y": 99.750064
+                    },
+                    "uuid": "6361b80c-55e8-2bcc-486e-9f8c3af5134c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "焊盘缺少原理图 (unconnected-(J1-DM1-Pad9)) 指定的网络",
+            "items": [
+                {
+                    "description": "F.Cu 上 J1 的焊盘 9 [<no net>]",
+                    "pos": {
+                        "x": 92.449087,
+                        "y": 100.249936
+                    },
+                    "uuid": "11701564-1ee9-a1a4-2c63-2de439dcba24"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "焊盘缺少原理图 (unconnected-(J1-DP2-Pad10)) 指定的网络",
+            "items": [
+                {
+                    "description": "F.Cu 上 J1 的焊盘 10 [<no net>]",
+                    "pos": {
+                        "x": 92.449087,
+                        "y": 100.750062
+                    },
+                    "uuid": "69a540b0-771e-ccf0-7b67-a6d06dee1a90"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "焊盘缺少原理图 (unconnected-(J1-SBU1-Pad11)) 指定的网络",
+            "items": [
+                {
+                    "description": "F.Cu 上 J1 的焊盘 11 [<no net>]",
+                    "pos": {
+                        "x": 92.449087,
+                        "y": 101.24968
+                    },
+                    "uuid": "28e9de96-3663-6ad6-43dc-f71651568356"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "tscircuit:resistor_0402 与符号 () 指定的封装不匹配",
+            "items": [
+                {
+                    "description": "封装 R1",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 95.0
+                    },
+                    "uuid": "2698e056-70f7-21aa-0887-23aa5fe8da56"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R1",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 95.0
+                    },
+                    "uuid": "2698e056-70f7-21aa-0887-23aa5fe8da56"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "焊盘网络 (CC1) 与原理图 (/USB-C LED/CC1) 指定的网络不匹配",
+            "items": [
+                {
+                    "description": "F.Cu 上 R1 的焊盘 1 [CC1]",
+                    "pos": {
+                        "x": 101.567184,
+                        "y": 95.0
+                    },
+                    "uuid": "590b1240-0716-c781-4add-833e632e3203"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "tscircuit:resistor_0402 与符号 () 指定的封装不匹配",
+            "items": [
+                {
+                    "description": "封装 R2",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 98.0
+                    },
+                    "uuid": "5f1f321a-3870-cfe6-2fff-2e1a6790d3e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R2",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 98.0
+                    },
+                    "uuid": "5f1f321a-3870-cfe6-2fff-2e1a6790d3e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "tscircuit:0603WAF4700T5E 与符号 () 指定的封装不匹配",
+            "items": [
+                {
+                    "description": "封装 R3",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 105.0
+                    },
+                    "uuid": "0da80560-4cc8-3881-58c7-899e01a8b443"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Resistor')",
+            "items": [
+                {
+                    "description": "封装 R3",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 105.0
+                    },
+                    "uuid": "0da80560-4cc8-3881-58c7-899e01a8b443"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "焊盘网络 (LED) 与原理图 (/USB-C LED/LED) 指定的网络不匹配",
+            "items": [
+                {
+                    "description": "F.Cu 上 R3 的焊盘 2 [LED]",
+                    "pos": {
+                        "x": 102.753364,
+                        "y": 105.0
+                    },
+                    "uuid": "5f61bafe-1196-63a2-7d71-7dbe0c795f1e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        }
+    ],
+    "source": "circuit.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "当前配置中不包含封装库 'tscircuit'",
+            "items": [
+                {
+                    "description": "封装 J1",
+                    "pos": {
+                        "x": 90.0,
+                        "y": 100.0
+                    },
+                    "uuid": "2d3e9f66-6a51-629a-01e1-649a668e9966"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'tscircuit'",
+            "items": [
+                {
+                    "description": "封装 R1",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 95.0
+                    },
+                    "uuid": "2698e056-70f7-21aa-0887-23aa5fe8da56"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'tscircuit'",
+            "items": [
+                {
+                    "description": "封装 R2",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 98.0
+                    },
+                    "uuid": "5f1f321a-3870-cfe6-2fff-2e1a6790d3e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'tscircuit'",
+            "items": [
+                {
+                    "description": "封装 C1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 96.0
+                    },
+                    "uuid": "24131bb8-445c-e248-5333-1fb8153cde48"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'tscircuit'",
+            "items": [
+                {
+                    "description": "封装 C2",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 99.0
+                    },
+                    "uuid": "1473360c-7ce3-340c-1aac-cdf44dc3300c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'tscircuit'",
+            "items": [
+                {
+                    "description": "封装 R3",
+                    "pos": {
+                        "x": 102.0,
+                        "y": 105.0
+                    },
+                    "uuid": "0da80560-4cc8-3881-58c7-899e01a8b443"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "当前配置中不包含封装库 'tscircuit'",
+            "items": [
+                {
+                    "description": "封装 D1",
+                    "pos": {
+                        "x": 109.0,
+                        "y": 105.0
+                    },
+                    "uuid": "52f69660-0779-a781-61e9-e56243a5dcbd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J1 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 84.880903,
+                        "y": 95.531022
+                    },
+                    "uuid": "91457d97-418d-4703-ac5b-e49b009fb254"
+                },
+                {
+                    "description": "J1 的PTH 焊盘 20 [<no net>]",
+                    "pos": {
+                        "x": 87.225914,
+                        "y": 95.674888
+                    },
+                    "uuid": "2278b8e0-11ef-c301-4658-3ee27ac0bac3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J1 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 88.59893,
+                        "y": 104.47101
+                    },
+                    "uuid": "6a69f364-d1db-4921-94d8-d6f0f44877d7"
+                },
+                {
+                    "description": "J1 的PTH 焊盘 18 [<no net>]",
+                    "pos": {
+                        "x": 91.405738,
+                        "y": 104.325112
+                    },
+                    "uuid": "17f281a0-2b9b-059f-3f43-899e52ec0d9d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J1 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 84.880903,
+                        "y": 104.47101
+                    },
+                    "uuid": "4d775f01-9682-4319-a7b4-30baa8dc9ba4"
+                },
+                {
+                    "description": "J1 的PTH 焊盘 17 [<no net>]",
+                    "pos": {
+                        "x": 87.225914,
+                        "y": 104.325112
+                    },
+                    "uuid": "7006f000-7c50-8c01-68a8-080254ff8403"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J1 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 88.599285,
+                        "y": 95.531022
+                    },
+                    "uuid": "f87bd55b-1754-4d2e-9d94-6da6edb854bc"
+                },
+                {
+                    "description": "J1 的PTH 焊盘 19 [<no net>]",
+                    "pos": {
+                        "x": 91.405738,
+                        "y": 95.674888
+                    },
+                    "uuid": "6e019100-3999-151f-0530-993e2f37e2a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

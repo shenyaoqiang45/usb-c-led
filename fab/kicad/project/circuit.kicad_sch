@@ -1,0 +1,60 @@
+(kicad_sch
+  (version 20250114)
+  (generator circuit-json-to-kicad)
+  (generator_version 0.0.1)
+  (uuid 9f0607a3-1aff-4fc6-b2ce-90b0ff49e335)
+  (paper
+    A4
+  )
+  (lib_symbols)
+  (sheet_instances
+    (path "/"
+      (page "1")
+    )
+  )
+  (embedded_fonts no)
+  (sheet
+    (at 25.4 25.4)
+    (size 40 25)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid cee19a5b-ea69-437e-a0a6-d5e1fa194af2)
+    (property "Sheetname" "USB-C LED"
+      (id 0)
+      (at 25.4 24.7 0)
+      (effects
+        (font
+          (size 1.524 1.524)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "main.kicad_sch"
+      (id 1)
+      (at 25.4 51.1 0)
+      (effects
+        (font
+          (size 1.524 1.524)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project ""
+        (path "/9f0607a3-1aff-4fc6-b2ce-90b0ff49e335"
+          (page "2")
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,13 @@
+{
+  "name": "usb-c-led",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsci build usb-c-led.circuit.tsx --svgs",
+    "fab": "tsci export usb-c-led.circuit.tsx --format gerbers --output fab/usb-c-led-gerbers.zip"
+  },
+  "dependencies": {
+    "bun": "^1.4.5",
+    "tscircuit": "^0.0.3296"
+  }
+}

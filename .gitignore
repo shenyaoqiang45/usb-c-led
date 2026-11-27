@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.tscircuit/
+.tscircuit-build-history/
+
+*.lck
+~*
+*.kicad_prl
+
+fab/usb-c-led-gerbers.zip

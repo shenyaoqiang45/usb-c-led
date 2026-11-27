@@ -1,0 +1,277 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-26T17:53:14",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/9f0607a3-1aff-4fc6-b2ce-90b0ff49e335",
+            "violations": [
+                {
+                    "description": "当前配置不包含符号库 'Custom'",
+                    "items": [
+                        {
+                            "description": "符号 #PWRschematic_net_label_3 [rail_up]",
+                            "pos": {
+                                "x": 105.41,
+                                "y": 102.79
+                            },
+                            "uuid": "c6aea7da-a08c-4704-97b6-df8295cf1d74"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "在符号库中 'capacitor_down' 找不到符号 'Device'",
+                    "items": [
+                        {
+                            "description": "符号 C1 [capacitor_down]",
+                            "pos": {
+                                "x": 105.41,
+                                "y": 110.49
+                            },
+                            "uuid": "472d0118-e749-41cb-83dc-aa278dc87769"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'Custom'",
+                    "items": [
+                        {
+                            "description": "符号 #PWRschematic_net_label_0 [rail_down]",
+                            "pos": {
+                                "x": 105.41,
+                                "y": 123.27
+                            },
+                            "uuid": "b86ca280-2854-44fb-933e-6bc35246fe7e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "在符号库中 'boxresistor_down' 找不到符号 'Device'",
+                    "items": [
+                        {
+                            "description": "符号 R1 [boxresistor_down]",
+                            "pos": {
+                                "x": 119.38,
+                                "y": 128.27
+                            },
+                            "uuid": "f0111cea-7e4d-4f2e-aeec-551d60c12b5a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "在符号库中 'capacitor_down_2' 找不到符号 'Device'",
+                    "items": [
+                        {
+                            "description": "符号 C2 [capacitor_down_2]",
+                            "pos": {
+                                "x": 123.19,
+                                "y": 110.49
+                            },
+                            "uuid": "d8fb5269-88a3-4e19-bdaa-e2660b4c338d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "在符号库中 'boxresistor_down_3' 找不到符号 'Device'",
+                    "items": [
+                        {
+                            "description": "符号 R3 [boxresistor_down_3]",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 57.15
+                            },
+                            "uuid": "50065ebb-a053-46bc-8914-c58022dd89c4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "在符号库中 'led_down' 找不到符号 'Device'",
+                    "items": [
+                        {
+                            "description": "符号 D1 [led_down]",
+                            "pos": {
+                                "x": 138.43,
+                                "y": 78.74
+                            },
+                            "uuid": "91f29ff5-ef7c-4544-886a-9b850dde7034"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'Custom'",
+                    "items": [
+                        {
+                            "description": "符号 #PWRschematic_net_label_5 [rail_up]",
+                            "pos": {
+                                "x": 139.7,
+                                "y": 50.72
+                            },
+                            "uuid": "9dc5d82b-c140-4d3e-b117-b7c2a9b5cf90"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "垂直线, 长度 10.16 mm",
+                            "pos": {
+                                "x": 147.32,
+                                "y": 147.32
+                            },
+                            "uuid": "140d14da-25bf-44c8-b788-9400f2ac9b0c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "在符号库中 'boxresistor_down_2' 找不到符号 'Device'",
+                    "items": [
+                        {
+                            "description": "符号 R2 [boxresistor_down_2]",
+                            "pos": {
+                                "x": 147.32,
+                                "y": 151.13
+                            },
+                            "uuid": "4e9d5a2f-3990-4071-9805-c834a9bde7b2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'Custom'",
+                    "items": [
+                        {
+                            "description": "符号 #PWRschematic_net_label_2 [rail_down]",
+                            "pos": {
+                                "x": 147.32,
+                                "y": 158.83
+                            },
+                            "uuid": "a0e76d79-76c0-4959-a87f-a61f0012c669"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "在符号库中 'U_TYPE-C-31-M-12' 找不到符号 'Device'",
+                    "items": [
+                        {
+                            "description": "符号 J1 [U_TYPE-C-31-M-12]",
+                            "pos": {
+                                "x": 161.29,
+                                "y": 107.95
+                            },
+                            "uuid": "a09c88e3-ef84-42fb-9bf9-7c9f2801f994"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'Custom'",
+                    "items": [
+                        {
+                            "description": "符号 #PWRschematic_net_label_1 [rail_down]",
+                            "pos": {
+                                "x": 193.04,
+                                "y": 109.3
+                            },
+                            "uuid": "1b09914b-850a-44be-b838-654d66e9b526"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "当前配置不包含符号库 'Custom'",
+                    "items": [
+                        {
+                            "description": "符号 #PWRschematic_net_label_4 [rail_up]",
+                            "pos": {
+                                "x": 196.85,
+                                "y": 101.52
+                            },
+                            "uuid": "cb8fe3a0-a5a0-42ed-8d49-95fa02ce2ad1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        },
+        {
+            "path": "/USB-C LED/",
+            "uuid_path": "/9f0607a3-1aff-4fc6-b2ce-90b0ff49e335/cee19a5b-ea69-437e-a0a6-d5e1fa194af2",
+            "violations": [
+                {
+                    "description": "Local and global labels have same name",
+                    "items": [
+                        {
+                            "description": "全局标签 'CC2'",
+                            "pos": {
+                                "x": 180.34,
+                                "y": 109.22
+                            },
+                            "uuid": "b3316207-d3ba-4910-9c08-ae2e6e60e5ce"
+                        },
+                        {
+                            "description": "标签 'CC2'",
+                            "pos": {
+                                "x": 147.32,
+                                "y": 144.78
+                            },
+                            "uuid": "e1ccf2b2-6ca5-41b5-83e3-893bf821e601"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "same_local_global_label"
+                }
+            ]
+        }
+    ],
+    "source": "circuit.kicad_sch"
+}
